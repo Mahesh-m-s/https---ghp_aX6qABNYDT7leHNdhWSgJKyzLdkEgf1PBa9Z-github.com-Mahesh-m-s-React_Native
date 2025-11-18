@@ -7,7 +7,7 @@ const [input, setInput] = useState("");
 
 const handlePress = (value) => {
     setInput(input + value);
-};
+};  
 
 const handleClear = () => {
     setInput("");
